@@ -1,0 +1,52 @@
+/* Ensure the navbar respects the global theme */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+    color: var(--font-color);
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+    color: var(--font-color); /* Use global font color */
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-menu li img {
+    display: flex;
+    margin: auto;
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: var(--font-color); /* Use global font color */
+}
+
+.anchor-link:hover {
+    color: #B923C1;
+}
+
+.nav-connect {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25, #B923C1);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white; /* Text color inside the button */
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+}

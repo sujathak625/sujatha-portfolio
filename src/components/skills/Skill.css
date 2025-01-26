@@ -1,0 +1,61 @@
+.skills {
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: var(--background-color);
+}
+
+.skills-heading {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: var(--title-color);
+    text-align: center;
+}
+
+.skills-category {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.category-title {
+    font-size: 1.2rem; /* Reduced font size for compactness */
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    color: var(--title-color);
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem; /* Reduced gap for compactness */
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem; /* Reduced gap for compactness */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.skill-item:hover {
+    transform: scale(1.15); /* Slightly reduced hover scale for subtle effect */
+}
+
+.skill-icon {
+    font-size: 1.8rem; /* Reduced icon size for compactness */
+    color: var(--icon-color);
+}
+
+.skill-name {
+    font-size: 0.9rem; /* Reduced font size for compactness */
+    color: var(--text-color);
+}
+
+.skill-item:hover .skill-name {
+    color: var(--icon-color);
+}

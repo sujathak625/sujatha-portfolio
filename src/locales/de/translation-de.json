@@ -1,0 +1,35 @@
+{
+  "Home": "Startseite",
+  "About Me": "Über mich",
+  "Skills": "Fähigkeiten",
+  "Technical Skills": "Technische Fähigkeiten",
+  "Soft Skills": "Sozial Komptenz",
+  "Experience": "Erfahrung",
+  "Professional Experience": "Berufserfahrungen",
+  "Projects": "Projekten",
+  "Resume": "Mein Lebenslauf",
+  "Subscribe": "Abonnieren",
+  "Connect with Me": "Verbinde dich mit mir",
+  "Introduction-1": "Ich heiße Sujatha Kannan,",
+  "Introduction-2":"eine Java Full-Stack-Entwicklerin mit Wohnsitz in Deutschland.",
+  "Introduction-3": "Full Stack Entwickler und Teamleiter mit langjähriger Erfahrung in Java Backend, React Frontend sowie Android App Entwicklung",
+  "Contact Label": "Kontaktieren Sie mich",
+  "Name Label": "Ihr Name",
+  "E-mail Label": "Ihre E-Mail",
+  "Message Label": "Schreiben Sie hier Ihre Nachricht",
+  "Send": "Senden",
+  "Let us talk": "Lassen Sie uns sprechen",
+  "Looking-For": "Suchen Sie nach einem talentierten und engagierten Profi, der Ihr Team bereichert? Ich bin offen für neue Möglichkeiten und freue mich darauf, mit Ihnen in Kontakt zu treten. Lassen Sie uns besprechen, wie meine Fähigkeiten und Erfahrungen zu Ihrem nächsten Projekt beitragen können.",
+
+  "Sending": "Wird gesendet",
+  "Request Success": "Anfrage erfolgreich!",
+  "Request Failed": "Ein Fehler ist aufgetreten",
+
+  "about-me-1": "Entwicklerin mit 12 Jahren Erfahrung in der Entwicklung, dem Testen und der Leitung von Teams. Im Laufe der Jahre habe ich ein vielfältiges Skillset entwickelt, das mir hilft, mich in der sich ständig weiterentwickelnden Tech-Welt zurechtzufinden.",
+  "about-me-2": "Leidenschaftlich daran interessiert, neue Dinge zu lernen und mich den aktuellen Trends anzupassen. Fokussiert auf kontinuierliches Wachstum, sei es beim Erlernen neuer Technologien oder der Verbesserung meiner Fähigkeiten, um in der Branche relevant zu bleiben.",
+  "about-me-3": "Karriereorientiert und gleichzeitig familienbewusst. Stolze Mutter und eine liebevolle, pflichtbewusste Ehefrau eines wunderbaren Mannes. Strebe danach, sowohl im beruflichen als auch im privaten Leben eine bedeutende Wirkung zu erzielen.",
+
+  "footerText1": "Mit Hingabe und Leidenschaft erstellt von...",
+  "footerText2": "Erstellt mit modernen React-basierten Frontend-Technologien.",
+"footerText3": "Vielen Dank für Ihren Besuch!"
+}

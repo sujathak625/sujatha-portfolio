@@ -1,0 +1,79 @@
+:root {
+  --font-color-light: black;
+  --font-color-dark: white;
+  --bg-color-light: #fff;
+  --bg-color-dark: #333;
+  --input-bg-light: #ffffff;
+  --input-bg-dark: #32323c;
+  --input-bg-grey:#A0A0A0;
+  --input-text-light: #000000;
+  --input-text-dark: #A0A0A0;
+  --input-text-white:white;
+  --bg-color: #f4f4f4;
+  --title-color: #333;
+  --icon-color: #FFA500;
+  --text-color: #555;
+  --font-color: var(--font-color-light);
+}
+
+/* Default light theme styles */
+body {
+  color: var(--font-color-light);
+  --background-color: var(--bg-color-light);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark theme styles */
+body.dark-theme {
+  --font-color: var(--font-color-dark);
+  color: var(--font-color-dark);
+  --background-color: var(--bg-color-dark);
+  --title-color: #ddd;
+  --icon-color: #FFA500;
+  --text-color: #aaa;
+}
+
+/* Dark theme styles */
+body.dark-theme {
+  color: var(--font-color-dark);
+  background-color: var(--bg-color-dark);
+}
+
+/* Logo styles */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

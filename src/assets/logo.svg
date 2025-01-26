@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180.125" height="149.625" viewBox="0 0 286.125 149.625" fill="none" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient id="pinkGoldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="20%" stop-color="#FF1493" />
+            <stop offset="100%" stop-color="#FFD700" />
+        </linearGradient>
+    </defs>
+    <!-- "Sujatha Kannan" in a script-style font -->
+    <text x="50.25" y="65.625" font-family="'Dancing Script', cursive" font-size="165" fill="url(#pinkGoldGradient)">SK</text>
+    <!-- Horizontal underline in purple -->
+    <line x1="26.25" y1="78.75" x2="289.375" y2="78.75" stroke="#800080" stroke-width="5.25" />
+
+    <!-- "Technology Strategist" in a sans-serif font -->
+    <text x="39.375" y="120" font-family="'Montserrat', sans-serif" font-size="25" fill="#FF4500">Technology Strategist</text>
+</svg>

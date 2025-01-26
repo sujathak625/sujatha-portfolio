@@ -1,0 +1,62 @@
+.experience {
+    color: var(--font-color);
+    margin: 4rem auto;
+    padding: 2rem;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.experience-heading {
+    font-weight: 700;
+    margin-bottom: 3rem;
+    color: var(--font-color);
+}
+
+.experience-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--font-color);
+}
+
+.experience-location {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--secondary-font-color);
+}
+
+.experience-description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--font-color);
+}
+
+
+:root {
+    --font-color: #333;
+    --secondary-font-color: #555;
+    --content-bg: #f9f9f9;
+    --content-border: rgba(0, 0, 0, 0.1);
+    --arrow-color: rgba(0, 0, 0, 0.1);
+    --icon-bg: #fff;
+    --icon-color: #333;
+}
+
+body.dark-theme {
+    --font-color: #f0f0f0;
+    --secondary-font-color: #ccc;
+    --content-bg: rgba(255, 255, 255, 0.05);
+    --content-border: rgba(255, 255, 255, 0.1);
+    --arrow-color: rgba(255, 255, 255, 0.5);
+    --icon-bg: rgba(255, 255, 255, 0.15);
+    --icon-color: #fff;
+}
+
+.timeline-icon-light {
+    background: white;
+}
+
+.timeline-icon-dark {
+    background: rgba(255, 255, 255, 0.15);
+}
